@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'laenorweb2',
         'USER': 'laenorweb2',
-        'PASSWORD': '',
+        'PASSWORD': 'laenorweb2',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
