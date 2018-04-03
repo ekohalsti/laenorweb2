@@ -1,4 +1,4 @@
-# laenorweb2
+# Laenorweb2
 
 ## Installation
 * Create db
