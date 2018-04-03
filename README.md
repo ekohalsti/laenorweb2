@@ -11,8 +11,8 @@
 pip install -r requirements.txt
 ```
 
-* Create db tables
-* Create static content
+* Create db tables &
+* Create static content with:
 
 ```
 ./manage.py makemigrations
