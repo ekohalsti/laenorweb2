@@ -1,0 +1,72 @@
+---
+- name: Set hostname
+  hostname:
+    name: "{{ inventory_hostname }}"
+
+- name: Add hostname to /etc/hosts
+  lineinfile:
+    dest: "/etc/hosts"
+    regexp: '^127\.0\.0\.1'
+    line: "127.0.0.1 {{ inventory_hostname }} localhost"
+    owner: "root"
+    group: "root"
+    mode: "0644"
+
+- name: Set server locale
+  locale_gen:
+    name: "en_US.UTF-8"
+
+- name: Update apt cache
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+
+- name: Upgrade apt packages to the latest safe versions
+  apt:
+    upgrade: "safe"
+
+- name: Install required packages
+  apt:
+    name: "{{ item }}"
+  with_items:
+    - "curl"
+    - "gnupg2"
+    - "git"
+    - "ufw"
+
+# without this, there was an error when enabling the firewall:
+# ERROR: problem running ufw-init
+# ip6tables-restore: line 4 failed
+# ip6tables-restore: line 65 failed
+# Problem running '/etc/ufw/before6.rules'
+
+- name: Disable IPv6 in UFW
+  lineinfile:
+    path: "/etc/default/ufw"
+    regexp: "^IPV6="
+    line: "IPV6=no"
+
+- name: Open SSH port in firewall
+  ufw:
+    rule: "allow"
+    port: "ssh"
+    proto: "tcp"
+
+- name: Start firewall with default rule deny and disable logging
+  ufw:
+    state: "enabled"
+    policy: "deny"
+    logging: "off"
+
+- name: Disable root login
+  lineinfile:
+    dest: "/etc/ssh/sshd_config"
+    regexp: "^PermitRootLogin"
+    line: "PermitRootLogin no"
+    state: "present"
+  notify: restart ssh
+
+- name: Copy message of the day
+  copy:
+    src: "motd"
+    dest: "/etc/motd"

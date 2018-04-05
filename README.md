@@ -41,3 +41,15 @@ ansible-playbook -i hosts users.yml
 ```
 
 * Try that you can login to `laenorweb2.dy.fi` and sudo without password
+
+### Server configuration
+
+This playbook will configure basic linux stuff such as firewall, hostname,
+ntp, etc. and also the software required to run the application.
+
+It also upgrades all apt packages to latest safe versions, so should be
+run regularly.
+
+```
+ansible-playbook -i hosts servers.yml
+```

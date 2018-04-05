@@ -1,0 +1,8 @@
+---
+- name: server configuration
+  hosts: all
+  become: true
+  roles:
+    - "common"
+    - "roles-galaxy/geerlingguy.ntp"
+    - "users"
