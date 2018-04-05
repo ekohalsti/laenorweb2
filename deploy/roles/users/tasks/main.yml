@@ -1,0 +1,25 @@
+---
+- name: install sudo
+  apt:
+    pkg: "sudo"
+
+- name: create users
+  user:
+    name: "{{ item }}"
+    groups: "sudo"
+    shell: "/bin/bash"
+    password: ""
+  with_items: "{{ users }}"
+
+- name: set authorized keys
+  authorized_key:
+    user: "{{ item }}"
+    key: "{{ lookup('file', item + '.pub') }}"
+  with_items: "{{ users }}"
+
+- name: setup sudo without password
+  lineinfile:
+    dest: "/etc/sudoers"
+    regexp: '^%admin ALL\='
+    line: "%admin ALL=(ALL) NOPASSWD:ALL"
+    validate: "visudo -cf %s"

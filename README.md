@@ -1,6 +1,7 @@
 # Laenorweb2
 
 ## Installation
+
 * Create db
 * Create db user
 * Set credentials to local_settings.py with guidance from settings.py
@@ -21,6 +22,22 @@ pip install -r requirements.txt
 ```
 
 ## Test API
+
 ```
 ./manage.py runserver
 ```
+
+## Deployment
+
+### Adding users to server
+
+* Install ansible
+* Add your username to `deploy/group_vars/all/vars.yml` and public key to
+  `deploy/roles/users/files/<username>.pub`
+* Commit, push, ask for someone with access to execute
+
+```
+ansible-playbook -i hosts users.yml
+```
+
+* Try that you can login to `laenorweb2.dy.fi` and sudo without password
