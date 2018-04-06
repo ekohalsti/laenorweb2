@@ -6,3 +6,9 @@
     - "common"
     - "roles-galaxy/geerlingguy.ntp"
     - "users"
+
+- name: database configuration
+  hosts: database
+  become: true
+  roles:
+    - "database"
