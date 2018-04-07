@@ -1,0 +1,59 @@
+---
+- name: clone application
+  become: no
+  git:
+    repo: "{{ git_repo }}"
+    dest: "{{ app_path }}"
+    accept_hostkey: yes
+    force: yes # changing ownership is a local modification, have to force overwrite
+
+- name: install requirements
+  pip:
+    requirements: "{{ app_path }}/requirements.txt"
+
+- name: copy database settings
+  template:
+    src: "local_settings.py.j2"
+    dest: "{{ app_path }}/laenorweb2/local_settings.py"
+
+- name: copy uwsgi application params
+  template:
+    src: "uwsgi_params.j2"
+    dest: "{{ app_path }}/uwsgi_params"
+
+- name: migrate database
+  command: python manage.py migrate
+  args:
+    chdir: "{{ app_path }}"
+
+- name: change application files ownership
+  file:
+    path: "{{ app_path }}"
+    recurse: yes
+    owner: "www-data"
+
+- name: copy nginx site config
+  template:
+    src: "{{ app_name }}.conf.j2"
+    dest: "/etc/nginx/sites-available/{{ app_name }}.conf"
+  notify: "reload nginx"
+
+- name: symlink nginx site config
+  file:
+    src: "/etc/nginx/sites-available/{{ app_name }}.conf"
+    dest: "/etc/nginx/sites-enabled/{{ app_name }}.conf"
+    state: "link"
+  notify: "reload nginx"
+
+- name: copy uwsgi site config
+  template:
+    src: "{{ app_name }}_uwsgi.ini.j2"
+    dest: "/etc/uwsgi/apps-available/{{ app_name }}.ini"
+  notify: "reload uwsgi"
+
+- name: symlink uwsgi site config
+  file:
+    src: "/etc/uwsgi/apps-available/{{ app_name }}.ini"
+    dest: "/etc/uwsgi/apps-enabled/{{ app_name }}.ini"
+    state: "link"
+  notify: "reload uwsgi"

@@ -12,3 +12,9 @@
   become: true
   roles:
     - "database"
+
+- name: application backend configuration
+  hosts: back
+  become: true
+  roles:
+    - "webserver"

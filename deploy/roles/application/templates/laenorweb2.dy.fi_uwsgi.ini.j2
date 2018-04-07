@@ -1,0 +1,9 @@
+[uwsgi]
+chdir           = {{ app_path }}
+module          = laenorweb2.wsgi:application
+pythonpath      = /usr/local/lib/python2.7/dist-packages
+pythonpath      = /usr/lib/python2.7
+master          = true
+processes       = 4
+socket          = {{ uwsgi_socket }}
+vacuum          = true

@@ -10,6 +10,15 @@ ntp_servers:
   - "2.fi.pool.ntp.org"
   - "3.fi.pool.ntp.org"
 
+
 db_name: "laenorweb2"
 db_user: "laenorweb2"
 db_pass: "{{ group_all_secrets.db_pass }}"
+db_host: "localhost"
+
+app_name: "laenorweb2.dy.fi"
+app_path: "/var/www/{{ app_name }}"
+uwsgi_socket: "{{ app_path }}/sock"
+server_name: "82.181.15.132" # change to app_name when dy.fi is registered
+
+git_repo: "git@github.com:ekohalsti/laenorweb2.git"

@@ -1,0 +1,22 @@
+upstream django {
+    server unix://{{ uwsgi_socket }};
+}
+
+server {
+    listen      80;
+    server_name {{ server_name }}
+    charset     utf-8;
+
+    location /media  {
+        alias {{ app_path }}/media;
+    }
+
+    location /static {
+        alias {{ app_path }}/static;
+    }
+
+    location / {
+        uwsgi_pass  django;
+        include     {{ app_path }}/uwsgi_params;
+    }
+}

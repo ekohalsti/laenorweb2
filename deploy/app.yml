@@ -1,0 +1,6 @@
+---
+- name: application
+  hosts: back
+  become: true
+  roles:
+    - "application"

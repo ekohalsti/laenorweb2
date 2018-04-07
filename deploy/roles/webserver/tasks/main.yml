@@ -1,0 +1,29 @@
+---
+- name: install nginx, python and uwsgi
+  apt:
+    name: "{{ item }}"
+  with_items:
+    - "nginx-extras"
+    - "uwsgi"
+    - "uwsgi-plugin-python"
+    - "python-dev"
+    - "python-pip"
+    - "git"
+
+- name: remove default site config
+  file:
+    path: "/etc/nginx/sites-enabled/default"
+    state: "absent"
+  notify: "restart nginx"
+
+- name: open port in ufw
+  ufw:
+    rule: "allow"
+    port: "http"
+    proto: "tcp"
+
+- name: change application install directory ownership to allow cloning
+  file:
+    path: "/var/www"
+    group: "www-data"
+    mode: "0775"
