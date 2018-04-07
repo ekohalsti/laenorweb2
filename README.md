@@ -53,3 +53,37 @@ run regularly.
 ```
 ansible-playbook -i hosts servers.yml
 ```
+
+### Application
+
+Deploys the application, executes database migrations and configures nginx and uwsgi.
+
+```
+ansible-playbook -i hosts app.yml
+```
+
+If this fails on repository cloning, make sure that you have ssh-agent enabled and
+private key added. Repository is fetched from github with your private key so that
+additional deployment key is not needed.
+
+Private key can be added to ssh-agent with:
+
+```
+ssh-add
+```
+
+Connection to github from server can be tested with:
+
+```
+ansible laenorweb2.dy.fi -i hosts -a "ssh -T git@github.com"
+
+laenorweb2.dy.fi | FAILED | rc=1 >>
+Hi rhietala! You've successfully authenticated, but GitHub does not provide shell access.non-zero return code
+```
+
+This is a successful reply even tough it says "FAILED". Error would probably be:
+
+```
+Permission denied (publickey).
+```
+
