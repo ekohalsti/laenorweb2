@@ -1,0 +1,50 @@
+{
+  "tag_groups": [
+    {
+      "name": "Lucentium areas",
+      "tags": [
+        { "id": 1, "name": "Kundar-el-Alam", "map": ["l.ddd", "..?dd", "ddddd"] },
+        { "id": 2, "name": "Fraggle village", "map": ["bbbFF", "bb?FF", "FFFFh"] },
+        { "id": 3, "name": "Mirror mine" },
+        { "id": 4, "name": "Creepy house" },
+        { "id": 5, "name": "Catfolk shipyard" },
+        { "id": 6, "name": "Astacia" },
+        { "id": 7, "name": "Cornfields" },
+        { "id": 8, "name": "Lands of lore" }
+      ]
+    },
+    {
+      "name": "Laenor areas",
+      "tags": [
+        { "id": 1, "name": "Oakvale" },
+        { "id": 2, "name": "Orc scouts" }
+      ]
+    },
+    {
+      "name": "Monsters",
+      "tags": [
+        { "id": 1, "name": "Gou'ljeg, a huge, ancient beholder" },
+        { "id": 2, "name": "Sister Valentina the Chosen of Saints" }
+      ]
+    },
+    {
+      "name": "Quests",
+      "tags": [
+        { "id": 1, "name": "LQ 16: Black butterfly" },
+        { "id": 2, "name": "LQ 16: Statue" },
+        { "id": 3, "name": "LQ 17: Platter" },
+        { "id": 4, "name": "LQ 17: Rob vault" },
+        { "id": 5, "name": "LQ 18: Kobold staff" },
+        { "id": 6, "name": "LQ 82: Assassinate the fairy queen" },
+        { "id": 7, "name": "AQ: Treasuries of the nocilis valley" }
+      ]
+    },
+    {
+      "name": "Others",
+      "tags": [
+        { "id": 1, "name": "Cooking" },
+        { "id": 2, "name": "Shipquests" }
+      ]
+    }
+  ]
+}

@@ -149,3 +149,8 @@ venv.bak/
 
 # End of https://www.gitignore.io/api/python,pycharm
 
+dist
+elm-stuff
+node_modules
+npm-debug.log
+.DS_Store

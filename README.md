@@ -1,6 +1,10 @@
 # Laenorweb2
 
-## Installation
+## Backend
+
+Backend source code is in `tag/` and `laenorweb2/`.
+
+### Installation
 
 * Create db
 * Create db user
@@ -21,11 +25,38 @@ pip install -r requirements.txt
 ./manage.py collectstatic
 ```
 
-## Test API
+### Running development mode
 
 ```
 ./manage.py runserver
 ```
+
+Open [http://localhost:8000](http://localhost:8000) in browser.
+
+
+## Frontend
+
+Frontend source code is in `src/`.
+
+### Installation
+
+* Install node.js
+* Install dependencies with
+
+```
+npm install
+```
+
+### Running development mode
+
+```
+npm run dev
+```
+
+Open [http://localhost:8001/](http://localhost:8001/) in browser.
+
+This will load data from `localhost:8000` so backend should be running also.
+
 
 ## Deployment
 
@@ -56,7 +87,7 @@ ansible-playbook -i hosts servers.yml
 
 ### Application
 
-Deploys the application, executes database migrations and configures nginx and uwsgi.
+Deploys the application backend, executes database migrations and configures nginx and uwsgi.
 
 ```
 ansible-playbook -i hosts app.yml
