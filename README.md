@@ -57,6 +57,17 @@ Open [http://localhost:8001/](http://localhost:8001/) in browser.
 
 This will load data from `localhost:8000` so backend should be running also.
 
+### Test API for frontend
+
+There is a quick-and-dirty api server also available that serves the same kind of
+json from http://localhost:8000 as the real backend:
+
+```
+npm run api
+```
+
+Its data is defined in `db.json`.
+
 
 ## Deployment
 

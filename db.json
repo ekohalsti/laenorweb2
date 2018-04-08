@@ -1,6 +1,7 @@
 {
-  "tag_groups": [
+  "tag_group": [
     {
+      "id": 1,
       "name": "Lucentium areas",
       "tags": [
         { "id": 1, "name": "Kundar-el-Alam", "map": ["l.ddd", "..?dd", "ddddd"] },
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Laenor areas",
       "tags": [
         { "id": 1, "name": "Oakvale" },
@@ -21,6 +23,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Monsters",
       "tags": [
         { "id": 1, "name": "Gou'ljeg, a huge, ancient beholder" },
@@ -28,6 +31,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Quests",
       "tags": [
         { "id": 1, "name": "LQ 16: Black butterfly" },
@@ -40,6 +44,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Others",
       "tags": [
         { "id": 1, "name": "Cooking" },
