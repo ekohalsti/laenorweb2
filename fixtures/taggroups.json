@@ -1,0 +1,65 @@
+[
+  {
+    "fields": {
+      "name": "Laenor areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Rothikgen areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Lucentium areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Furnachia areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Desolathya areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Other areas"
+    },
+    "model": "tag.taggroup",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Monsters"
+    },
+    "model": "tag.taggroup",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Quests"
+    },
+    "model": "tag.taggroup",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Others"
+    },
+    "model": "tag.taggroup",
+    "pk": 9
+  }
+]

@@ -26,6 +26,11 @@
   args:
     chdir: "{{ app_path }}"
 
+- name: insert tag groups seed data
+  command: python manage.py loaddata fixtures/taggroups.json
+  args:
+    chdir: "{{ app_path }}"
+
 - name: change application files ownership
   file:
     path: "{{ app_path }}"
