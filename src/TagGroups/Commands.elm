@@ -15,7 +15,7 @@ import TagGroups.Messages exposing (Msg(..))
 
 resourceUrl : String
 resourceUrl =
-    "http://localhost:8000/tag_group/"
+    "tag_group/"
 
 
 
@@ -87,9 +87,9 @@ tagGroupEncoder title completed =
 -- fetch all todos
 
 
-fetchAll : Cmd Msg
-fetchAll =
+fetchAll : String -> Cmd Msg
+fetchAll apiUrl =
     let
-        request = Http.get resourceUrl tagGroupsDecoder
+        request = Http.get (String.join "/" [ apiUrl, resourceUrl ]) tagGroupsDecoder
     in
         Http.send FetchAllDone request

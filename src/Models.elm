@@ -19,14 +19,19 @@ type alias Model =
     }
 
 
+type alias Flags =
+    { apiUrl : String
+    }
+
+
 
 -- see Todos.Models.TodoEditView
 -- this is the initial state for the application
 -- this is supplied to Html.App.Program in Main
 
 
-init : ( Model, Cmd Msg )
-init =
+init : Flags -> ( Model, Cmd Msg )
+init flags =
     let
         -- type aliases can be used as functions, with the arguments
         -- being in the same order they were declared in (above).
@@ -44,6 +49,6 @@ init =
             Cmd.batch
                 -- create a single command to fetch todos from api,
                 -- mapping it with the "root" Messages.Msg.TodosMsg
-                [ Cmd.map TagGroupsMsg TagGroups.Commands.fetchAll ]
+                [ Cmd.map TagGroupsMsg (TagGroups.Commands.fetchAll flags.apiUrl) ]
     in
         ( model, cmds )

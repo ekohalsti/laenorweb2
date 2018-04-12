@@ -13,4 +13,6 @@ var Elm = require('./Main.elm');
 var mountNode = document.getElementById('layout');
 
 // mount elm app
-var app = Elm.Main.embed(mountNode);
+var app = Elm.Main.embed(mountNode, {
+  apiUrl: process.env.API_URL
+});

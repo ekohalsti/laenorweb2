@@ -1,4 +1,8 @@
 var path = require("path");
+var UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+var webpack = require("webpack");
+
+require('dotenv').config();
 
 module.exports = {
   entry: {
@@ -8,9 +12,14 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname + '/dist'),
+    path: path.resolve(__dirname + '/static'),
     filename: '[name].js',
   },
+
+  plugins: [
+    new UglifyJsPlugin(),
+    new webpack.EnvironmentPlugin(['API_URL'])
+  ],
 
   module: {
     loaders: [
