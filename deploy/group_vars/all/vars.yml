@@ -22,3 +22,4 @@ uwsgi_socket: "{{ app_path }}/sock"
 server_name: "82.181.15.132" # change to app_name when dy.fi is registered
 
 git_repo: "git@github.com:ekohalsti/laenorweb2.git"
+django_secret: "{{ group_all_secrets.django_secret }}"

@@ -16,6 +16,11 @@ server {
     }
 
     location / {
+        alias {{ app_path }}/static/;
+    }
+
+    location /api/ {
+        rewrite /api/(.+) /$1 break;
         uwsgi_pass  django;
         include     {{ app_path }}/uwsgi_params;
     }

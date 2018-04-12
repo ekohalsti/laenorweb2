@@ -31,6 +31,7 @@
     path: "{{ app_path }}"
     recurse: yes
     owner: "www-data"
+    mode: "g+w"
 
 - name: copy nginx site config
   template:
