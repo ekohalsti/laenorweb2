@@ -25,6 +25,39 @@ pip install -r requirements.txt
 ./manage.py collectstatic
 ```
 
+### Fixtures
+
+Fixtures can be loaded with
+
+```
+./manage.py loaddata fixtures/tags.json
+```
+
+TagGroups have been inserted manually, their master data is in
+`fixtures/taggroups.json`.
+
+Tags for areas can be generated with
+
+```
+./manage.py runscript insert_areas
+```
+
+for that you'll have to have a clone of ggr's
+[maputils repo](http://pupunen.net/hg/maputils):
+
+```
+brew install mercurial
+hg clone http://pupunen.net/hg/maputils
+```
+
+and then change path to the cloned repo to `scripts/insert_areas.py`
+`MAPUTILS_REPO`.
+
+The script will insert all areas to db, so tag-table should be cleaned manually
+before running this script. Also, the tag ids would have to be manually managed
+to fixtures correctly so that adding new areas doesn't mess up old ids.
+
+
 ### Running development mode
 
 ```

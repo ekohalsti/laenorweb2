@@ -1,0 +1,3611 @@
+[
+   {
+      "fields" : {
+         "name" : "Laenor areas"
+      },
+      "model" : "tag.taggroup",
+      "pk" : 1
+   },
+   {
+      "fields" : {
+         "name" : "Rothikgen areas"
+      },
+      "model" : "tag.taggroup",
+      "pk" : 2
+   },
+   {
+      "fields" : {
+         "name" : "Lucentium areas"
+      },
+      "model" : "tag.taggroup",
+      "pk" : 3
+   },
+   {
+      "pk" : 4,
+      "fields" : {
+         "name" : "Furnachia areas"
+      },
+      "model" : "tag.taggroup"
+   },
+   {
+      "pk" : 5,
+      "model" : "tag.taggroup",
+      "fields" : {
+         "name" : "Desolathya areas"
+      }
+   },
+   {
+      "model" : "tag.taggroup",
+      "fields" : {
+         "name" : "Other areas"
+      },
+      "pk" : 6
+   },
+   {
+      "pk" : 7,
+      "fields" : {
+         "name" : "Monsters"
+      },
+      "model" : "tag.taggroup"
+   },
+   {
+      "fields" : {
+         "name" : "Quests"
+      },
+      "model" : "tag.taggroup",
+      "pk" : 8
+   },
+   {
+      "fields" : {
+         "name" : "Others"
+      },
+      "model" : "tag.taggroup",
+      "pk" : 9
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : "zczcR\nccccR\ncccc=",
+         "name" : "Arelium"
+      },
+      "model" : "tag.tag",
+      "pk" : 1
+   },
+   {
+      "fields" : {
+         "name" : "Dortlewall",
+         "group" : 1,
+         "locmap" : "HHHH^\nH+H^^\nH|^^^"
+      },
+      "model" : "tag.tag",
+      "pk" : 2
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "y+cc.\nyyccy\nyyyyy",
+         "group" : 1,
+         "name" : "Newbie Village"
+      },
+      "pk" : 3
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : ".fyf.\nfffff\nyfff.",
+         "name" : "Mountaineer cottage"
+      },
+      "pk" : 4
+   },
+   {
+      "pk" : 5,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Laenor fort",
+         "locmap" : "~~SSS\n~SSSc\n~Szcc",
+         "group" : 1
+      }
+   },
+   {
+      "pk" : 6,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "sssss\nss?ss\nsssss",
+         "group" : 1,
+         "name" : "Woodhelven"
+      }
+   },
+   {
+      "pk" : 7,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Revelstone",
+         "locmap" : "^^^hs\n^^?hh\n^wrrh",
+         "group" : 1
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Seance's platform",
+         "group" : 1,
+         "locmap" : "hhhhs\nhh?hs\nhhhhs"
+      },
+      "model" : "tag.tag",
+      "pk" : 8
+   },
+   {
+      "pk" : 9,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Guards gap",
+         "group" : 1,
+         "locmap" : "s^^^w\nss?hh\ns^^^^"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Mithil",
+         "group" : 1,
+         "locmap" : "rhhhh\nrr?hs\nhrrrs"
+      },
+      "model" : "tag.tag",
+      "pk" : 10
+   },
+   {
+      "fields" : {
+         "name" : "Fouls creche",
+         "group" : 1,
+         "locmap" : "sssrs\nss?rr\nssrrs"
+      },
+      "model" : "tag.tag",
+      "pk" : 11
+   },
+   {
+      "pk" : 12,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Elven village",
+         "group" : 1,
+         "locmap" : "fFFFF\nfF?Ff\nffFff"
+      }
+   },
+   {
+      "pk" : 13,
+      "fields" : {
+         "name" : "Dunedains dark mansion",
+         "locmap" : "FFFFF\nfF?ff\nfffff",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 14,
+      "fields" : {
+         "name" : "The Slopes of the Blackteeth Mountains",
+         "group" : 1,
+         "locmap" : "fFFFF\nFf?ff\nffHfH"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "FFFFF\nFF?FF\nFFFFF",
+         "group" : 1,
+         "name" : "Elements"
+      },
+      "pk" : 15
+   },
+   {
+      "pk" : 16,
+      "fields" : {
+         "locmap" : "^^^^^\n^^?H^\n^HH^H",
+         "group" : 1,
+         "name" : "Gauntlet event"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "FFFFF\nFF?FF\nFFFFF",
+         "name" : "Forest of Legolas"
+      },
+      "pk" : 17
+   },
+   {
+      "fields" : {
+         "locmap" : "FFFFF\nFF?ff\nfffff",
+         "group" : 1,
+         "name" : "Abandoned Valley"
+      },
+      "model" : "tag.tag",
+      "pk" : 18
+   },
+   {
+      "fields" : {
+         "name" : "Pluras castle",
+         "locmap" : "yyyyy\nyf?,,\nyyyyy",
+         "group" : 1
+      },
+      "model" : "tag.tag",
+      "pk" : 19
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : ".####\nf#?##\n.#f#f",
+         "name" : "Shrine"
+      },
+      "model" : "tag.tag",
+      "pk" : 20
+   },
+   {
+      "fields" : {
+         "name" : "White marble tower",
+         "group" : 1,
+         "locmap" : ".....\n..?..\n....."
+      },
+      "model" : "tag.tag",
+      "pk" : 21
+   },
+   {
+      "pk" : 22,
+      "fields" : {
+         "locmap" : "fffff\nff?ff\nfffff",
+         "group" : 1,
+         "name" : "Temple of Sarku"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : ".....\n..!..\n.....",
+         "name" : "Monthy Python, Quest for the Holy Grail"
+      },
+      "model" : "tag.tag",
+      "pk" : 23
+   },
+   {
+      "pk" : 24,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "HHH^^\nHH?^^\nH^^^^",
+         "name" : "Castle of Goddess"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Temple to the Winds",
+         "locmap" : "^^^^^\n^^HHH\n^HH^H",
+         "group" : 1
+      },
+      "pk" : 25
+   },
+   {
+      "pk" : 26,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Chateau de le Bigeaul",
+         "locmap" : "ff,ff\nff?ff\nfffff",
+         "group" : 1
+      }
+   },
+   {
+      "pk" : 27,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Oakvale",
+         "group" : 1,
+         "locmap" : "fffff\nfFFFf\nFFFFf"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Circus",
+         "locmap" : "ff,ff\n..?ff\n.....",
+         "group" : 1
+      },
+      "model" : "tag.tag",
+      "pk" : 28
+   },
+   {
+      "pk" : 29,
+      "fields" : {
+         "name" : "Hugoville and von Huber",
+         "group" : 1,
+         "locmap" : "fffff\nll?f/\nfff+f"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 30,
+      "fields" : {
+         "locmap" : "ffff.\n.f?ff\n..fff",
+         "group" : 1,
+         "name" : "Orc scouts treehouse"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 31,
+      "fields" : {
+         "name" : "Drawbridge",
+         "locmap" : "f...h\n,,?hh\n..hhh",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "fFff.\nFF?ff\nFFFff",
+         "name" : "Newbie Forest"
+      },
+      "pk" : 32
+   },
+   {
+      "pk" : 33,
+      "fields" : {
+         "name" : "Raven, newbie mountain, trolls etc",
+         "group" : 1,
+         "locmap" : "HH^^H\nHH?^^\n^HH^H"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "locmap" : "H^^^^\nHH?^^\n^^^^^",
+         "group" : 1,
+         "name" : "Newbie Mountain"
+      },
+      "model" : "tag.tag",
+      "pk" : 34
+   },
+   {
+      "pk" : 35,
+      "fields" : {
+         "group" : 1,
+         "locmap" : "fffyy\nyffyy\nyyyy/",
+         "name" : "Wibble"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 36,
+      "fields" : {
+         "locmap" : "fffyy\nyy?fy\nyyyyy",
+         "group" : 1,
+         "name" : "Petting Zoo"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : "yfyyy\nyfyyy\nyfyyy",
+         "name" : "Arelium dungeons"
+      },
+      "model" : "tag.tag",
+      "pk" : 37
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : "^^H^H\nH^H^H\nH^^HH",
+         "name" : "Newbie Mines"
+      },
+      "model" : "tag.tag",
+      "pk" : 38
+   },
+   {
+      "pk" : 39,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Newbie park",
+         "group" : 1,
+         "locmap" : "ryyy+\nyy?y.\nyyyy."
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Damned convent",
+         "group" : 1,
+         "locmap" : "^^HHH\n^^?HH\n^^HHH"
+      },
+      "model" : "tag.tag",
+      "pk" : 40
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "yyyyy\nyy?yy\nyyffy",
+         "name" : "Bob and thelmas farm/grove"
+      },
+      "pk" : 41
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "yyyyy\nyy?.y\nyy..y",
+         "name" : "Newbie playgrounds"
+      },
+      "pk" : 42
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Nasu area",
+         "locmap" : "yyFyy\n-----\nyyyyy",
+         "group" : 1
+      },
+      "pk" : 43
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "The Riddle of the Colours",
+         "locmap" : "HHhhH\n^^?hh\n,,,,,",
+         "group" : 1
+      },
+      "pk" : 44
+   },
+   {
+      "pk" : 45,
+      "fields" : {
+         "group" : 1,
+         "locmap" : ".....\n..?..\n\\....",
+         "name" : "Newbie Playground"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fFFFF\n,,?FF\nfffFF",
+         "group" : 1,
+         "name" : "Peacock Farm"
+      },
+      "pk" : 46
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "FFFFF\nFF?Ff\nFFFFf",
+         "group" : 1,
+         "name" : "Foxhunt"
+      },
+      "pk" : 47
+   },
+   {
+      "pk" : 48,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Merchant subguild",
+         "group" : 1,
+         "locmap" : "../..\n-+?FF\nFFFFF"
+      }
+   },
+   {
+      "pk" : 49,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : ",^^^^\nH,?^^\nH,HHH",
+         "group" : 1,
+         "name" : "Therps castle"
+      }
+   },
+   {
+      "pk" : 50,
+      "fields" : {
+         "group" : 1,
+         "locmap" : "yyyyy\nyy?yy\nyy,yy",
+         "name" : "Farm"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 1,
+         "locmap" : "FfffF\nFF?ff\nFFFff",
+         "name" : "Cathedral of Dr. Kilrathi"
+      },
+      "model" : "tag.tag",
+      "pk" : 51
+   },
+   {
+      "pk" : 52,
+      "fields" : {
+         "name" : "Alchemist Tower / Amazons",
+         "locmap" : "FFFFF\nFF?FF\nFFFFF",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Alchemist Tower / Amazons, entrance 2",
+         "group" : 1,
+         "locmap" : "FFFFF\nfF?FF\nFFFFF"
+      },
+      "pk" : 53
+   },
+   {
+      "pk" : 54,
+      "fields" : {
+         "locmap" : "H^^^^\nHH?HH\nHHHHH",
+         "group" : 1,
+         "name" : "Darkcastle"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 55,
+      "fields" : {
+         "locmap" : "hh#hh\nhh?##\nh###h",
+         "group" : 1,
+         "name" : "Chessboard"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 56,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "FFyyF\nFy?Ff\nFFFff",
+         "group" : 1,
+         "name" : "Gnomish flying machine"
+      }
+   },
+   {
+      "pk" : 57,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Tower of the accursed",
+         "group" : 1,
+         "locmap" : "...ff\n..?Ff\nfFFff"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "LAE-UNKNOWN ",
+         "group" : 1,
+         "locmap" : "!^!^!\n!^?^!\n^^H^!"
+      },
+      "model" : "tag.tag",
+      "pk" : 58
+   },
+   {
+      "pk" : 59,
+      "fields" : {
+         "group" : 1,
+         "locmap" : "hhfrh\nhh?rh\nfffrr",
+         "name" : "Zoy's Inn"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Nun Temple",
+         "group" : 1,
+         "locmap" : "!!^^h\n!^?hh\n^hhhh"
+      },
+      "model" : "tag.tag",
+      "pk" : 60
+   },
+   {
+      "pk" : 61,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Secladin",
+         "group" : 1,
+         "locmap" : "f,FFF\nff?FF\nfffFF"
+      }
+   },
+   {
+      "pk" : 62,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "~SS~~\n~SbS~\n~SSS~",
+         "group" : 1,
+         "name" : "Faerie Island"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "^^^^H\n^^fHh\nHhhHH",
+         "name" : "Faerie island"
+      },
+      "pk" : 63
+   },
+   {
+      "pk" : 64,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "^HHHH\n^^sHH\n^^^^^",
+         "group" : 1,
+         "name" : "Caverns of the Undying"
+      }
+   },
+   {
+      "pk" : 65,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Asylum",
+         "group" : 1,
+         "locmap" : ".....\nff...\nfffff"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Enchanter (quest)",
+         "group" : 1,
+         "locmap" : "yyyyy\nyy...\nyy..."
+      },
+      "model" : "tag.tag",
+      "pk" : 66
+   },
+   {
+      "pk" : 67,
+      "fields" : {
+         "name" : "Enchanter (corpse)",
+         "group" : 1,
+         "locmap" : "ffff.\n.fff.\nffff."
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Mountain Dwarves",
+         "group" : 1,
+         "locmap" : "HH^^^\nHHv^^\nHHHH^"
+      },
+      "model" : "tag.tag",
+      "pk" : 68
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "name" : "Faerie Forest"
+      },
+      "pk" : 69
+   },
+   {
+      "pk" : 70,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Small Meadow",
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "group" : 1
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Ix'ixixiblat",
+         "locmap" : "h##H^\n#HH#H\nH##hH",
+         "group" : 1
+      },
+      "pk" : 71
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Kender Mansion",
+         "locmap" : "hffff\nfffff\nfffff",
+         "group" : 1
+      },
+      "pk" : 72
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "School of Lumine",
+         "group" : 1,
+         "locmap" : "fffff\nfffff\nfffff"
+      },
+      "pk" : 73
+   },
+   {
+      "fields" : {
+         "name" : "Old Oak Forest",
+         "locmap" : ".Ffff\nFFFff\nfFfff",
+         "group" : 1
+      },
+      "model" : "tag.tag",
+      "pk" : 74
+   },
+   {
+      "pk" : 75,
+      "fields" : {
+         "name" : "Conifer Forest",
+         "locmap" : "ff..f\nff.f.\nff...",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 76,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Beastlands",
+         "group" : 1,
+         "locmap" : "hhhhh\n^^hhh\n^!^^^"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Stouby",
+         "locmap" : "fff,f\nfffff\nfffff",
+         "group" : 1
+      },
+      "pk" : 77
+   },
+   {
+      "pk" : 78,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Wihne+ ss",
+         "locmap" : "fff|.\nffF|.\nfff+f",
+         "group" : 1
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Tyr Farwyn",
+         "locmap" : "^H|HH\n^^cc^\n^cccc",
+         "group" : 1
+      },
+      "pk" : 79
+   },
+   {
+      "pk" : 80,
+      "fields" : {
+         "locmap" : "Szzzz\nzz...\nz..,,",
+         "group" : 1,
+         "name" : "Landfall"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 81,
+      "fields" : {
+         "locmap" : "fffff\n.ffff\nfffff",
+         "group" : 1,
+         "name" : "Granny's house"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 82,
+      "fields" : {
+         "name" : "Wrebie forest",
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "locmap" : "HHH^^\nH^H^^\n^H^^^",
+         "group" : 1,
+         "name" : "Bunny valley"
+      },
+      "model" : "tag.tag",
+      "pk" : 83
+   },
+   {
+      "pk" : 84,
+      "fields" : {
+         "name" : "Lonely Inn",
+         "group" : 1,
+         "locmap" : "....,\n...,.\n...,."
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Butterfly farm",
+         "group" : 1,
+         "locmap" : "ffFff\nfffFf\n.ffFf"
+      },
+      "model" : "tag.tag",
+      "pk" : 85
+   },
+   {
+      "pk" : 86,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Mesme",
+         "group" : 1,
+         "locmap" : "fffff\nfffff\nfffff"
+      }
+   },
+   {
+      "pk" : 87,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "fFFff\nfffff\nfffff",
+         "name" : "Forest of Moonrind"
+      }
+   },
+   {
+      "pk" : 88,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "HH|HH\n^^?^^\n^^^^^",
+         "group" : 1,
+         "name" : "Iron mine"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "^^^^^\n^^?^^\nHH|HH",
+         "name" : "Iron mine (south entrance)"
+      },
+      "pk" : 89
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Sewers of Silverfang",
+         "group" : 1,
+         "locmap" : ".##zz\n####z\n.,#zz"
+      },
+      "pk" : 90
+   },
+   {
+      "pk" : 91,
+      "fields" : {
+         "locmap" : "SzSzz\nzzcc-\n..cc.",
+         "group" : 1,
+         "name" : "Vendace Shore"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "yyyyy\nyyyyy\nyyy+-",
+         "name" : "Fulgurite shop"
+      },
+      "pk" : 92
+   },
+   {
+      "fields" : {
+         "locmap" : "H^^^^\nHH?^^\nHHHHH",
+         "group" : 1,
+         "name" : "Runemages guild northern entrance."
+      },
+      "model" : "tag.tag",
+      "pk" : 93
+   },
+   {
+      "pk" : 94,
+      "fields" : {
+         "name" : "Runemages guild, the eastern entrance.",
+         "locmap" : "^^^^H\n^^?^H\n^^HHH",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "locmap" : "H^^H^\n^^?HH\nH^^^H",
+         "group" : 1,
+         "name" : "Runemages guild, western entrance."
+      },
+      "model" : "tag.tag",
+      "pk" : 95
+   },
+   {
+      "pk" : 96,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "HHHHH\n^^?^^\n^^^^H",
+         "group" : 1,
+         "name" : "Tarmalen summer guild"
+      }
+   },
+   {
+      "pk" : 97,
+      "fields" : {
+         "locmap" : "....z\n..?..\n----+",
+         "group" : 1,
+         "name" : "Squire guild"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 98,
+      "fields" : {
+         "name" : "Shipyard",
+         "locmap" : "zzSSS\n.z?SS\n./zzS",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 99,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Channelers",
+         "locmap" : "^H^^^\nH^?^^\nH^H^^",
+         "group" : 1
+      }
+   },
+   {
+      "pk" : 100,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Knight guild",
+         "group" : 1,
+         "locmap" : ".+--=\n.|?.r\n.|..r"
+      }
+   },
+   {
+      "pk" : 101,
+      "fields" : {
+         "name" : "Ranger guild",
+         "locmap" : "^^^^H\n^^?H^\n^^^^^",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "FFFFl\nFF?Fl\nFFFFl",
+         "name" : "Druids"
+      },
+      "pk" : 102
+   },
+   {
+      "pk" : 103,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Mage magical",
+         "locmap" : "^^hh#\nhh%##\nh^###",
+         "group" : 1
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "RcccR\nRcccR\nRcccR",
+         "name" : "Crimson"
+      },
+      "pk" : 104
+   },
+   {
+      "pk" : 105,
+      "fields" : {
+         "locmap" : "..zzS\n...zS\n..zzS",
+         "group" : 1,
+         "name" : "Bruce's shack"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Archer",
+         "group" : 1,
+         "locmap" : "ycccy\nycccy\nycccy"
+      },
+      "model" : "tag.tag",
+      "pk" : 106
+   },
+   {
+      "pk" : 107,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fffff\n...ff\n...ff",
+         "group" : 1,
+         "name" : "Martial arts trainer (kobold)"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Barb (lae)",
+         "group" : 1,
+         "locmap" : "HH^^H\n^^HHH\n^HHHH"
+      },
+      "model" : "tag.tag",
+      "pk" : 108
+   },
+   {
+      "pk" : 109,
+      "fields" : {
+         "name" : "Priest (lae)",
+         "locmap" : "sss..\nsssss\nsssss",
+         "group" : 1
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 110,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 1,
+         "locmap" : "ffrrf\nffrrf\nffrff",
+         "name" : "River cavalier"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Suicidal+ ss",
+         "group" : 1,
+         "locmap" : "zzf.|\n....|\n....+"
+      },
+      "model" : "tag.tag",
+      "pk" : 111
+   },
+   {
+      "pk" : 112,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Shadowkeep",
+         "group" : 2,
+         "locmap" : "cccc^\ncccc^\ncccc^"
+      }
+   },
+   {
+      "pk" : 113,
+      "fields" : {
+         "name" : "Shadowkeep annex",
+         "group" : 2,
+         "locmap" : "~~SSS\n~~?zz\n~f,zz"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 114,
+      "fields" : {
+         "name" : "Tower of Horn-Durath",
+         "locmap" : "f^^!^\ny^h^^\ny^^h^",
+         "group" : 2
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Frost giants",
+         "group" : 2,
+         "locmap" : "t^!^t\n^!?t^\nt^^^^"
+      },
+      "model" : "tag.tag",
+      "pk" : 115
+   },
+   {
+      "pk" : 116,
+      "fields" : {
+         "locmap" : "^^h^^\n^^?^^\n^^^^^",
+         "group" : 2,
+         "name" : "Lonely Mountain"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "ttttt\ntt?ht\nttttt",
+         "group" : 2,
+         "name" : "Dino's taiga"
+      },
+      "pk" : 117
+   },
+   {
+      "pk" : 118,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Hells dojo",
+         "locmap" : "^^^^^\nhh?^^\nhhhh^",
+         "group" : 2
+      }
+   },
+   {
+      "fields" : {
+         "locmap" : "^^^^^\n^^?^^\n^^t^^",
+         "group" : 2,
+         "name" : "Frozen city of Rendburg"
+      },
+      "model" : "tag.tag",
+      "pk" : 119
+   },
+   {
+      "fields" : {
+         "name" : "Hill giants",
+         "group" : 2,
+         "locmap" : "hhhht\nhh?hh\nhhhhh"
+      },
+      "model" : "tag.tag",
+      "pk" : 120
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "ffffh\nff?Fh\nffFhF",
+         "name" : "Kalevala"
+      },
+      "model" : "tag.tag",
+      "pk" : 121
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fffff\nff?ff\nfffff",
+         "group" : 2,
+         "name" : "Abandoned study"
+      },
+      "pk" : 122
+   },
+   {
+      "pk" : 123,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Cevi village",
+         "group" : 2,
+         "locmap" : "fffff\nff?ff\nfffff"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "H####\nff?##\nff,ff",
+         "name" : "Barb guild event area"
+      },
+      "pk" : 124
+   },
+   {
+      "pk" : 125,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fffff\nff?ff\n-----",
+         "group" : 2,
+         "name" : "Campsite"
+      }
+   },
+   {
+      "pk" : 126,
+      "fields" : {
+         "name" : "Snowy peak",
+         "locmap" : "h^^hh\nhh?hF\nFhhhF",
+         "group" : 2
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Knights & Dragons",
+         "locmap" : "yyyyy\nyy?yy\nyyyyy",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 127
+   },
+   {
+      "pk" : 128,
+      "fields" : {
+         "locmap" : "s##s#\ns#?#f\ns#fff",
+         "group" : 2,
+         "name" : "Dark Forest"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 129,
+      "fields" : {
+         "group" : 2,
+         "locmap" : "fffff\nff?ff\nfffff",
+         "name" : "Stonehenge"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 130,
+      "fields" : {
+         "name" : "Mirkhold",
+         "locmap" : ".fffF\n.,?FF\n,fFFF",
+         "group" : 2
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "^^^^^\n^^?vv\n^^^^v",
+         "name" : "Caverns of Chaos"
+      },
+      "model" : "tag.tag",
+      "pk" : 131
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "yy^^y\nff?ff\nfffff",
+         "name" : "Smurville"
+      },
+      "model" : "tag.tag",
+      "pk" : 132
+   },
+   {
+      "fields" : {
+         "name" : "Nun guild mountain entrance",
+         "group" : 2,
+         "locmap" : "HHH^^\n^^fHr\n^^HHr"
+      },
+      "model" : "tag.tag",
+      "pk" : 133
+   },
+   {
+      "pk" : 134,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Kathvael forest",
+         "locmap" : "^^ff^\n^^?^^\n^^^^^",
+         "group" : 2
+      }
+   },
+   {
+      "pk" : 135,
+      "fields" : {
+         "group" : 2,
+         "locmap" : "^^^^h\n^^^hh\n^^^hh",
+         "name" : "Mountains"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "locmap" : "^^^^^\n^^?^H\nHHHHH",
+         "group" : 2,
+         "name" : "Ackbar's warrior shrine"
+      },
+      "model" : "tag.tag",
+      "pk" : 136
+   },
+   {
+      "fields" : {
+         "name" : "Paupers castle",
+         "locmap" : "ss,,,\nss?ss\nhhhhh",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 137
+   },
+   {
+      "fields" : {
+         "name" : "Old forest",
+         "group" : 2,
+         "locmap" : "FFFFF\nFF?FF\nFFFFF"
+      },
+      "model" : "tag.tag",
+      "pk" : 138
+   },
+   {
+      "pk" : 139,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Amberley mansion",
+         "group" : 2,
+         "locmap" : "vvvvF\nvv?--\nvFFFv"
+      }
+   },
+   {
+      "pk" : 140,
+      "fields" : {
+         "name" : "Donaru",
+         "locmap" : "fff~~\n--?S~\nfffff",
+         "group" : 2
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Inn of the Four Winds",
+         "locmap" : "fffff\n-+?ff\nff\\ff",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 141
+   },
+   {
+      "fields" : {
+         "name" : "Perilous forest",
+         "locmap" : "ffff^\nff?ff\nfffff",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 142
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Doobies",
+         "group" : 2,
+         "locmap" : ".....\n..?..\n....S"
+      },
+      "pk" : 143
+   },
+   {
+      "pk" : 144,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "Hz~~~\n,,?~~\n~HHH~",
+         "name" : "Lighthouse"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Mountainpass+citadel",
+         "group" : 2,
+         "locmap" : "^^^^v\n^^?fv\n^^^^f"
+      },
+      "pk" : 145
+   },
+   {
+      "fields" : {
+         "locmap" : "hh^^^\nHhf^^\nHHhh^",
+         "group" : 2,
+         "name" : "Inra"
+      },
+      "model" : "tag.tag",
+      "pk" : 146
+   },
+   {
+      "pk" : 147,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "SffSS\nfh.fS\nh^hff",
+         "group" : 2,
+         "name" : "Dark church, savage coast subarea"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Harazam, savage coast subarea",
+         "group" : 2,
+         "locmap" : "hhhhf\nhhihh\nhhhhh"
+      },
+      "model" : "tag.tag",
+      "pk" : 148
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "fffff\nffyff\nffff,",
+         "name" : "Wormhole, savage coast subarea"
+      },
+      "pk" : 149
+   },
+   {
+      "pk" : 150,
+      "fields" : {
+         "name" : "Creepy forest, savage coast subarea",
+         "group" : 2,
+         "locmap" : "rffvv\nrvffv\nrfffv"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Mushroom hill",
+         "group" : 2,
+         "locmap" : "sssss\nsssss\nsssss"
+      },
+      "model" : "tag.tag",
+      "pk" : 151
+   },
+   {
+      "fields" : {
+         "locmap" : "t###h\n###hh\nh##hh",
+         "group" : 2,
+         "name" : "Ruins of untar trinit, savage coast subarea"
+      },
+      "model" : "tag.tag",
+      "pk" : 152
+   },
+   {
+      "fields" : {
+         "name" : "Norse village",
+         "locmap" : "hhhSS\nhhhSS\nhhffS",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 153
+   },
+   {
+      "pk" : 154,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "^^^^f\n^^hff\n^^^^^",
+         "group" : 2,
+         "name" : "Stonetrolls"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Spider cave, savage coast subarea",
+         "locmap" : "vvvvr\nvvvvr\nvvvvr",
+         "group" : 2
+      },
+      "pk" : 155
+   },
+   {
+      "pk" : 156,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Old ladys shack, savage coast subarea",
+         "locmap" : "hhhhh\nhhhhh\nhhhhh",
+         "group" : 2
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "ff/^^\nf/v^^\n/^^^^",
+         "group" : 2,
+         "name" : "Swe+ ss"
+      },
+      "pk" : 157
+   },
+   {
+      "fields" : {
+         "name" : "Hq1, warzone subarea",
+         "locmap" : "vvvvv\nvvvvv\nvvvvv",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 158
+   },
+   {
+      "pk" : 159,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "vvvvv\nvvvvv\nvvvvv",
+         "name" : "Camp1, warzone subarea"
+      }
+   },
+   {
+      "pk" : 160,
+      "fields" : {
+         "locmap" : "vvvvv\nvvvvv\nvvvvv",
+         "group" : 2,
+         "name" : "Warzone area"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Camp2, warzone subarea",
+         "group" : 2,
+         "locmap" : "vvvvv\nvvvvv\nvvvvv"
+      },
+      "model" : "tag.tag",
+      "pk" : 161
+   },
+   {
+      "fields" : {
+         "name" : "Hq2, warzone subarea",
+         "locmap" : "vvvvv\nvvvvv\nvvvvv",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 162
+   },
+   {
+      "pk" : 163,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "Fhrrr\nFFFrr\nFFFFr",
+         "name" : "Aldors village"
+      }
+   },
+   {
+      "pk" : 164,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "hhh^^\nhhh^^\nhh^^h",
+         "group" : 2,
+         "name" : "Marble Shrine(?)"
+      }
+   },
+   {
+      "pk" : 165,
+      "fields" : {
+         "group" : 2,
+         "locmap" : "fffff\nfffff\nfffff",
+         "name" : "Attic"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 166,
+      "fields" : {
+         "group" : 2,
+         "locmap" : "f###f\nf###f\nf###f",
+         "name" : "Ruins"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 167,
+      "fields" : {
+         "name" : "Psi quest area",
+         "group" : 2,
+         "locmap" : "h^^^^\nh^hh^\nhhh^^"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "tHHHH\nHHttt\nHtttt",
+         "name" : "Trader's House"
+      },
+      "pk" : 168
+   },
+   {
+      "pk" : 169,
+      "fields" : {
+         "locmap" : "fffff\nff.ff\nfffff",
+         "group" : 2,
+         "name" : "Moongate"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "~~~~~\n~~~~~\n~~~~~",
+         "name" : "ROTH-UNKNOWN "
+      },
+      "model" : "tag.tag",
+      "pk" : 170
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "^^^^h\nhhhhh\nhhhhh",
+         "name" : "Old Copper Mine"
+      },
+      "pk" : 171
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Hack",
+         "locmap" : "HHH^^\nHHH^^\nHHH^^",
+         "group" : 2
+      },
+      "pk" : 172
+   },
+   {
+      "pk" : 173,
+      "fields" : {
+         "group" : 2,
+         "locmap" : "iiiii\niiiii\niiiii",
+         "name" : "Plateau of tsang"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "fffff\nfffff\nff|ff",
+         "name" : "Beaumont Hamel"
+      },
+      "model" : "tag.tag",
+      "pk" : 174
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "HHhhh\nHhh^^\nhh^^h",
+         "name" : "Evil vale"
+      },
+      "pk" : 175
+   },
+   {
+      "pk" : 176,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Severus castle",
+         "locmap" : "rFFsF\nFFFFs\nFFFFF",
+         "group" : 2
+      }
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "HHHHH\nHHHvv\nHHvvh",
+         "name" : "Ranger (roth)"
+      },
+      "model" : "tag.tag",
+      "pk" : 177
+   },
+   {
+      "fields" : {
+         "locmap" : "rrrrr\nsssss\nsssss",
+         "group" : 2,
+         "name" : "Priest (roth)"
+      },
+      "model" : "tag.tag",
+      "pk" : 178
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "~~~~~\n~~h~~\n~~hhh",
+         "name" : "Skyrider cavalier"
+      },
+      "pk" : 179
+   },
+   {
+      "fields" : {
+         "name" : "Martial arts trainer (gnoll)",
+         "group" : 2,
+         "locmap" : "frrff\nfffff\nfffff"
+      },
+      "model" : "tag.tag",
+      "pk" : 180
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "h^^^h\n^^?hh\n^hhhh",
+         "name" : "Tarmalen winter guild"
+      },
+      "model" : "tag.tag",
+      "pk" : 181
+   },
+   {
+      "fields" : {
+         "name" : "Beastmaster guild",
+         "group" : 2,
+         "locmap" : "^^^^h\nhh?^^\nhhhhh"
+      },
+      "model" : "tag.tag",
+      "pk" : 182
+   },
+   {
+      "pk" : 183,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Barb guild",
+         "group" : 2,
+         "locmap" : "HHHHh\nHH?hh\nH,hhh"
+      }
+   },
+   {
+      "fields" : {
+         "group" : 2,
+         "locmap" : "v^^^^\nvv?^^\n^vv^^",
+         "name" : "Nun guild"
+      },
+      "model" : "tag.tag",
+      "pk" : 184
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "^^^^!\n^^?!!\n^!!^^",
+         "group" : 2,
+         "name" : "Navigator guild"
+      },
+      "pk" : 185
+   },
+   {
+      "pk" : 186,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "~~vvv\n~~?--\n~~vvv",
+         "group" : 2,
+         "name" : "Psionicist guild"
+      }
+   },
+   {
+      "pk" : 187,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Mage cold",
+         "group" : 2,
+         "locmap" : "^^ii^\n^t%^^\ntt^^^"
+      }
+   },
+   {
+      "pk" : 188,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "Hhh^^\nhh%^^\nh^^^^",
+         "group" : 2,
+         "name" : "Mage asphyxiation"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "HHFFF\nHHFFF\nHHFFF",
+         "group" : 2,
+         "name" : "Tiger shrine (roth)"
+      },
+      "pk" : 189
+   },
+   {
+      "fields" : {
+         "name" : "The Hall of One Thousand Voices",
+         "locmap" : "HHHhh\nvvvvv\nvvvvv",
+         "group" : 2
+      },
+      "model" : "tag.tag",
+      "pk" : 190
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Riftwalker shaman cave",
+         "locmap" : "HHHHH\nHHHHH\nHsHHH",
+         "group" : 2
+      },
+      "pk" : 191
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "SShhS\nSh.hS\nShhSS",
+         "group" : 2,
+         "name" : "Crimson wyrm, savage coast subarea"
+      },
+      "pk" : 192
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "ffhhf\nfhhhh\nhhhih",
+         "name" : "Green wyrm, savage coast subarea"
+      },
+      "pk" : 193
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fhffS\nffbSS\nfffSS",
+         "group" : 2,
+         "name" : "Blue wyrm, savage coast subarea"
+      },
+      "pk" : 194
+   },
+   {
+      "pk" : 195,
+      "fields" : {
+         "name" : "Goathead, savage coast subarea",
+         "locmap" : "^^fff\n^^hff\n^^^ff",
+         "group" : 2
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 196,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 2,
+         "locmap" : "ffffh\nffhff\nfffff",
+         "name" : "Redhawk, savage coast subarea"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Wyrms, savage coast subarea",
+         "group" : 2,
+         "locmap" : "^^vfr\n^^hfr\n^^ffr"
+      },
+      "model" : "tag.tag",
+      "pk" : 197
+   },
+   {
+      "fields" : {
+         "group" : 3,
+         "locmap" : "Scccr\n~ccc-\n~c~Sr",
+         "name" : "Lorenchia"
+      },
+      "model" : "tag.tag",
+      "pk" : 198
+   },
+   {
+      "pk" : 199,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Valley of the Kings",
+         "group" : 3,
+         "locmap" : "^^ddd\n^^d^d\n^^v^^"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Lucentium welcome center",
+         "locmap" : "~~~~~\n~y?yy\nyy|yy",
+         "group" : 3
+      },
+      "model" : "tag.tag",
+      "pk" : 200
+   },
+   {
+      "fields" : {
+         "name" : "The Lost Pyramid",
+         "group" : 3,
+         "locmap" : "ddddd\ndd?dd\nddddd"
+      },
+      "model" : "tag.tag",
+      "pk" : 201
+   },
+   {
+      "pk" : 202,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "r=rr~\nr+?yy\n/fffy",
+         "name" : "Lands or lore"
+      }
+   },
+   {
+      "pk" : 203,
+      "fields" : {
+         "name" : "Obelisk",
+         "locmap" : "....d\n..?.d\nr....",
+         "group" : 3
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 204,
+      "fields" : {
+         "name" : "Cornfield",
+         "group" : 3,
+         "locmap" : "fy/yy\ny/yyf\n/yyyy"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Lanzia",
+         "group" : 3,
+         "locmap" : "ddd~~\n,,d~~\nddd~~"
+      },
+      "pk" : 205
+   },
+   {
+      "pk" : 206,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Colosseum",
+         "locmap" : "ddddd\n,,ddd\ndddd.",
+         "group" : 3
+      }
+   },
+   {
+      "pk" : 207,
+      "fields" : {
+         "name" : "Dahbec",
+         "group" : 3,
+         "locmap" : "ffff,\nff,f,\nff,f,"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Beanstalk",
+         "locmap" : "yyffy\nfyyff\nyfyyy",
+         "group" : 3
+      },
+      "model" : "tag.tag",
+      "pk" : 208
+   },
+   {
+      "fields" : {
+         "group" : 3,
+         "locmap" : ".ll.d\nlll.d\n.l..d",
+         "name" : "Oasis"
+      },
+      "model" : "tag.tag",
+      "pk" : 209
+   },
+   {
+      "fields" : {
+         "locmap" : "yyy,f\nffyff\nyyyyy",
+         "group" : 3,
+         "name" : "Village of Shrea"
+      },
+      "model" : "tag.tag",
+      "pk" : 210
+   },
+   {
+      "pk" : 211,
+      "fields" : {
+         "name" : "Nifties",
+         "group" : 3,
+         "locmap" : "ddddd\nddddd\nddddd"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "f^^~~\n,,^f~\nfbbb~",
+         "name" : "Stagira"
+      },
+      "pk" : 212
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "jFjFF\nFFjF.\n..,..",
+         "name" : "The Ruins of Astacia"
+      },
+      "pk" : 213
+   },
+   {
+      "fields" : {
+         "group" : 3,
+         "locmap" : "rffff\nrffff\nrffff",
+         "name" : "Public Gardens"
+      },
+      "model" : "tag.tag",
+      "pk" : 214
+   },
+   {
+      "fields" : {
+         "name" : "The Trilloch tower",
+         "locmap" : "fhhhh\nffhhh\nfffyh",
+         "group" : 3
+      },
+      "model" : "tag.tag",
+      "pk" : 215
+   },
+   {
+      "pk" : 216,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "fffff\nfffff\n....,",
+         "name" : "Anthill"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 217,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "ffffS\n--fSS\nfffff",
+         "name" : "Paladin Stronghold"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 218,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Tree village",
+         "locmap" : "FFFFF\nFFFFF\nFF+--",
+         "group" : 3
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Sunken ship",
+         "group" : 3,
+         "locmap" : "~~SS~\n~SS~~\n~~~~S"
+      },
+      "model" : "tag.tag",
+      "pk" : 219
+   },
+   {
+      "pk" : 220,
+      "fields" : {
+         "locmap" : "b..b~\nb..h~\nbhhh~",
+         "group" : 3,
+         "name" : "Giants/rechendak"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 221,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "bbbFF\nbbbFF\nFFFFF",
+         "name" : "Fraggle village"
+      }
+   },
+   {
+      "pk" : 222,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Duzelton",
+         "locmap" : "^^hhh\n^^h--\n^^hhh",
+         "group" : 3
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Whirlpool",
+         "group" : 3,
+         "locmap" : "~jrjy\njj~ry\njjjrj"
+      },
+      "pk" : 223
+   },
+   {
+      "pk" : 224,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Land of the Overworld",
+         "group" : 3,
+         "locmap" : "hh,yy\nhh,,y\nfhf,y"
+      }
+   },
+   {
+      "pk" : 225,
+      "fields" : {
+         "name" : "Beach",
+         "locmap" : "..bSS\n..bbS\n...bS",
+         "group" : 3
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 226,
+      "fields" : {
+         "locmap" : ".hhh^\nhhh^^\nhh^^^",
+         "group" : 3,
+         "name" : "Stifsim"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "SS~~S\nS~~~S\nS~~SS",
+         "group" : 3,
+         "name" : "Oystria"
+      },
+      "pk" : 227
+   },
+   {
+      "fields" : {
+         "group" : 3,
+         "locmap" : "~~~~~\n~~c~~\n~~~~~",
+         "name" : "Silver lake"
+      },
+      "model" : "tag.tag",
+      "pk" : 228
+   },
+   {
+      "pk" : 229,
+      "fields" : {
+         "name" : "Karatur",
+         "group" : 3,
+         "locmap" : "^^^^^\n~~^hh\n~~hhh"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 3,
+         "locmap" : "sssss\nsssss\nsssss",
+         "name" : "Troglodytes"
+      },
+      "model" : "tag.tag",
+      "pk" : 230
+   },
+   {
+      "pk" : 231,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "sssss\nsssss\nsssss",
+         "name" : "Steves hut, Troglodyte subarea"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "^^^^^\n^^^h^\n^^hhh",
+         "name" : "Mirror Mine"
+      },
+      "pk" : 232
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "FFFFF\nFFvFF\nFFFFF",
+         "name" : "Earthquake event"
+      },
+      "pk" : 233
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "name" : "Hailstorm event"
+      },
+      "pk" : 234
+   },
+   {
+      "pk" : 235,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "group" : 3,
+         "name" : "Meteor shower event"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "FFFFF\nFFFFF\nFFFFF",
+         "name" : "Cyclone event tower"
+      },
+      "pk" : 236
+   },
+   {
+      "pk" : 237,
+      "fields" : {
+         "locmap" : "jjjjR\njjjjj\njjjjj",
+         "group" : 3,
+         "name" : "Pyran"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "h###j\n####j\nh###j",
+         "name" : "Adamantium chain"
+      },
+      "pk" : 238
+   },
+   {
+      "fields" : {
+         "name" : "Templar shield quest cave",
+         "locmap" : "hhh^^\nhhd^^\nhh^^^",
+         "group" : 3
+      },
+      "model" : "tag.tag",
+      "pk" : 239
+   },
+   {
+      "pk" : 240,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "SSSSS\nbb~SS\nybbbS",
+         "name" : "Navigators of the sea"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 241,
+      "fields" : {
+         "name" : "Old house",
+         "group" : 3,
+         "locmap" : "FFFF#\nFFFF#\nFFFFF"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "ddddd\nddddd\nddddd",
+         "name" : "Village of War"
+      },
+      "pk" : 242
+   },
+   {
+      "pk" : 243,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Village of Famine",
+         "group" : 3,
+         "locmap" : "l.ddd\n...dd\nddddd"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Village of Pestilence",
+         "group" : 3,
+         "locmap" : "ddddd\nddddd\nddddd"
+      },
+      "model" : "tag.tag",
+      "pk" : 244
+   },
+   {
+      "pk" : 245,
+      "fields" : {
+         "name" : "Village of Death",
+         "group" : 3,
+         "locmap" : "ddddd\nddddd\nddddd"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 246,
+      "fields" : {
+         "locmap" : "bbjbb\nSbbbS\nSSSSS",
+         "group" : 3,
+         "name" : "Clockwork observatory"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : ".....\n..j..\n.....",
+         "name" : "Kirahvi+ ss"
+      },
+      "pk" : 247
+   },
+   {
+      "pk" : 248,
+      "fields" : {
+         "locmap" : "h^^^^\nhhh^^\nhhhh^",
+         "group" : 3,
+         "name" : "Underdark"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Satyr forest",
+         "group" : 3,
+         "locmap" : "SSSSS\nSSbbb\nSbfff"
+      },
+      "model" : "tag.tag",
+      "pk" : 249
+   },
+   {
+      "pk" : 250,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "fffff\nfffff\nffffH",
+         "name" : "A Tale of Two Towers"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 251,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "bbjjj\nSbbjj\nSSSSS",
+         "name" : "Catfolk shipyard"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Efiilas advance camp",
+         "group" : 3,
+         "locmap" : "yyfff\nyyfff\nfyfff"
+      },
+      "model" : "tag.tag",
+      "pk" : 252
+   },
+   {
+      "pk" : 253,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "fffff\nfffff\nfffff",
+         "name" : "Coffee forest"
+      }
+   },
+   {
+      "pk" : 254,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Draconian tower",
+         "locmap" : "hhhhh\nh^hhh\n^^^^^",
+         "group" : 3
+      }
+   },
+   {
+      "pk" : 255,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Dwarf warehouse",
+         "locmap" : "hhh^^\nhhh^^\nhh^^^",
+         "group" : 3
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "ddddb\nddddb\nddddd",
+         "name" : "Gladiator training grounds"
+      },
+      "pk" : 256
+   },
+   {
+      "fields" : {
+         "locmap" : "bjjbS\nbjjjb\nbbjjb",
+         "group" : 3,
+         "name" : "Ruins of Kofgaad"
+      },
+      "model" : "tag.tag",
+      "pk" : 257
+   },
+   {
+      "pk" : 258,
+      "fields" : {
+         "locmap" : "lfffl\nlffff\nlllfl",
+         "group" : 3,
+         "name" : "Monks"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 259,
+      "fields" : {
+         "name" : "Alchemist guild",
+         "locmap" : "fffff\nfffff\nfffff",
+         "group" : 3
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Tarmalen autumn guild",
+         "locmap" : "hhhdd\n^hhdd\n^dddd",
+         "group" : 3
+      },
+      "pk" : 260
+   },
+   {
+      "pk" : 261,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 3,
+         "locmap" : "jjjjj\njjjjj\njjjjj",
+         "name" : "Mage poison"
+      }
+   },
+   {
+      "pk" : 262,
+      "fields" : {
+         "name" : "Mage guild, electricity",
+         "group" : 3,
+         "locmap" : "~j^^^\n~~^V^\n~jj^b"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 263,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "jjjjj\njjjjj\njssjj",
+         "group" : 3,
+         "name" : "Tiger shrine (luce)"
+      }
+   },
+   {
+      "pk" : 264,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Temple of Tzarakk",
+         "group" : 3,
+         "locmap" : "jjjjj\nj^#^j\njjjj^"
+      }
+   },
+   {
+      "pk" : 265,
+      "fields" : {
+         "name" : "Martial arts trainer (catfolk)",
+         "group" : 3,
+         "locmap" : "srjjj\nsrjjj\n~~~~~"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Ranger (luc)",
+         "group" : 3,
+         "locmap" : "bSSSS\n.bbSS\n....S"
+      },
+      "model" : "tag.tag",
+      "pk" : 266
+   },
+   {
+      "pk" : 267,
+      "fields" : {
+         "group" : 3,
+         "locmap" : "hhhh^\n^^hhh\nrrrrh",
+         "name" : "Barb (luc)"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Priest (luc)",
+         "group" : 3,
+         "locmap" : "sssss\nsssss\nsssss"
+      },
+      "model" : "tag.tag",
+      "pk" : 268
+   },
+   {
+      "fields" : {
+         "name" : "Jungle cavalier",
+         "locmap" : "FFFrR\njjjrR\njjjrR",
+         "group" : 3
+      },
+      "model" : "tag.tag",
+      "pk" : 269
+   },
+   {
+      "pk" : 270,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "hhh^^\n^^h^^\n^^^^^",
+         "group" : 4,
+         "name" : "Aljerak temple"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Rilynt'tar",
+         "group" : 4,
+         "locmap" : "^cccc\n=cccc\n^cccc"
+      },
+      "model" : "tag.tag",
+      "pk" : 271
+   },
+   {
+      "pk" : 272,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Ril'ynttar harbour",
+         "group" : 4,
+         "locmap" : "~~SSF\n~~?SF\n~~|SF"
+      }
+   },
+   {
+      "pk" : 273,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Elven Outpost",
+         "locmap" : "FsFF~\nhh?F~\nsFss~",
+         "group" : 4
+      }
+   },
+   {
+      "pk" : 274,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Manor",
+         "group" : 4,
+         "locmap" : "~~FFF\n~~?FF\n~~~FF"
+      }
+   },
+   {
+      "pk" : 275,
+      "fields" : {
+         "name" : "Samurai fort",
+         "locmap" : "HHFFs\nFF?FF\nFFFsF",
+         "group" : 4
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 276,
+      "fields" : {
+         "name" : "Domgroth's Mansion",
+         "locmap" : "ss~~~\nyy?S~\nyyyS~",
+         "group" : 4
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Haunted Mansion",
+         "locmap" : "sFFFF\nsF?FF\nFFFF/",
+         "group" : 4
+      },
+      "model" : "tag.tag",
+      "pk" : 277
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Volcano",
+         "locmap" : "xxLL^\n^^?VL\n^^^L^",
+         "group" : 4
+      },
+      "pk" : 278
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Golem",
+         "group" : 4,
+         "locmap" : "@xxHH\n@^?HH\nV^^HH"
+      },
+      "pk" : 279
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Darkwood",
+         "group" : 4,
+         "locmap" : "FFFFF\nFF?FF\nFFFFF"
+      },
+      "pk" : 280
+   },
+   {
+      "fields" : {
+         "group" : 4,
+         "locmap" : "^^^^^\nH^?^^\nHHH\\-",
+         "name" : "Brantis"
+      },
+      "model" : "tag.tag",
+      "pk" : 281
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "####x\n##?#x\nx#xxx",
+         "group" : 4,
+         "name" : "Perins"
+      },
+      "pk" : 282
+   },
+   {
+      "pk" : 283,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "FFxxx\nxx?xx\nxxFFx",
+         "name" : "Mansion"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Tiamat",
+         "locmap" : "^^^^^\nhh?^^\n^hh^^",
+         "group" : 4
+      },
+      "pk" : 284
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Temple of the Twisted Prophecies",
+         "locmap" : "FxxFF\nFF?FF\nFFFFF",
+         "group" : 4
+      },
+      "pk" : 285
+   },
+   {
+      "pk" : 286,
+      "fields" : {
+         "locmap" : "hhhhh\nhh?,,\n^hhhh",
+         "group" : 4,
+         "name" : "Orthanc"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Kutanakor, west entrance",
+         "locmap" : "hh^^^\n^h?^^\n^hh^^",
+         "group" : 4
+      },
+      "model" : "tag.tag",
+      "pk" : 287
+   },
+   {
+      "pk" : 288,
+      "fields" : {
+         "name" : "Kutanakor, east entrance",
+         "group" : 4,
+         "locmap" : "^^hh^\n^^?h^\n^^^h^"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 289,
+      "fields" : {
+         "name" : "Ikar",
+         "group" : 4,
+         "locmap" : "^FFFF\nFF?FF\nFFFFh"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "^^^hh\n!^?hh\n^^hhL",
+         "group" : 4,
+         "name" : "Hell"
+      },
+      "pk" : 290
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "An old fort",
+         "locmap" : "sss^^\n~s?^^\n~~~~^",
+         "group" : 4
+      },
+      "pk" : 291
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 4,
+         "locmap" : "^^#^^\n^#?#^\n^hh^^",
+         "name" : "Tower of Corabandor"
+      },
+      "pk" : 292
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Fire giants",
+         "group" : 4,
+         "locmap" : "hVVVh\nVV?VV\nxxLLL"
+      },
+      "pk" : 293
+   },
+   {
+      "pk" : 294,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "jjjjj\njj?jj\njjjjj",
+         "name" : "Ndoki"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 295,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "jjjjj\njj?jj\njjjjj",
+         "name" : "Cavemen"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 4,
+         "locmap" : "#h##b\n##?#b\n###bb",
+         "name" : "Atlantis"
+      },
+      "model" : "tag.tag",
+      "pk" : 296
+   },
+   {
+      "pk" : 297,
+      "fields" : {
+         "name" : "Necromancer",
+         "group" : 4,
+         "locmap" : "sFFFs\nFs?FF\nss,sF"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 298,
+      "fields" : {
+         "name" : "Forest of the Moon",
+         "group" : 4,
+         "locmap" : "FFFFF\nFs?FF\nFsFFF"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 299,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Castle Firefox",
+         "locmap" : "LLxxx\nLLxxx\nLLLxx",
+         "group" : 4
+      }
+   },
+   {
+      "pk" : 300,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Citadel pit",
+         "locmap" : "H^^^H\nx^L^H\n@@V^H",
+         "group" : 4
+      }
+   },
+   {
+      "pk" : 301,
+      "fields" : {
+         "name" : "Wanderer maze",
+         "group" : 4,
+         "locmap" : "hhhhh\n^^hhh\n^^^^h"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "locmap" : "sssss\nFFfss\nFsFFF",
+         "group" : 4,
+         "name" : "Abandoned house"
+      },
+      "model" : "tag.tag",
+      "pk" : 302
+   },
+   {
+      "pk" : 303,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "SSjss\nrsjjj\nrsjjs",
+         "group" : 4,
+         "name" : "Trillazoo"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 4,
+         "locmap" : "sssss\nsssss\nsssss",
+         "name" : "Zonni swamps"
+      },
+      "pk" : 304
+   },
+   {
+      "pk" : 305,
+      "fields" : {
+         "name" : "Savage jungle",
+         "group" : 4,
+         "locmap" : "^^jjj\n^^jjj\n^^^jj"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Cartwheel",
+         "group" : 4,
+         "locmap" : "^^^^^\nHH?^^\nHHH^^"
+      },
+      "model" : "tag.tag",
+      "pk" : 306
+   },
+   {
+      "pk" : 307,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "FFFFF\n,,FFF\nFFFFF",
+         "name" : "Plakhstan"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Temple of Chaos",
+         "locmap" : ",##ss\n,###s\n,##ss",
+         "group" : 4
+      },
+      "pk" : 308
+   },
+   {
+      "fields" : {
+         "name" : "Furnachia fort (west)",
+         "locmap" : "~~~ss\n~~sss\n~~~ss",
+         "group" : 4
+      },
+      "model" : "tag.tag",
+      "pk" : 309
+   },
+   {
+      "fields" : {
+         "name" : "Furnachia fort (east)",
+         "group" : 4,
+         "locmap" : "ssSSS\nsssSS\nsssSS"
+      },
+      "model" : "tag.tag",
+      "pk" : 310
+   },
+   {
+      "fields" : {
+         "group" : 4,
+         "locmap" : "jjj~~\n~~j~~\n~~~~~",
+         "name" : "Furnachia fort (south)"
+      },
+      "model" : "tag.tag",
+      "pk" : 311
+   },
+   {
+      "pk" : 312,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "ss+--\ns/FsF\n/sFFF",
+         "group" : 4,
+         "name" : "Abandoned village"
+      }
+   },
+   {
+      "pk" : 313,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "hhh^^\nhhh^^\nh^^^^",
+         "name" : "Mountain peak"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "group" : 4,
+         "locmap" : "FFF#F\n#F#FF\nFFFFF",
+         "name" : "Abandoned, ruined temple"
+      },
+      "model" : "tag.tag",
+      "pk" : 314
+   },
+   {
+      "pk" : 315,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "slH^H\nll#^^\nl^^^^",
+         "name" : "Drow tower"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 316,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Priest guild special place",
+         "locmap" : "^^#LV\n^^##L\n^#^##",
+         "group" : 4
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Infection",
+         "group" : 4,
+         "locmap" : "sshs~\nhhhh~\nsh^h~"
+      },
+      "pk" : 317
+   },
+   {
+      "fields" : {
+         "locmap" : "FFFFH\nFFFFF\nFFFFH",
+         "group" : 4,
+         "name" : "Monk (furn)"
+      },
+      "model" : "tag.tag",
+      "pk" : 318
+   },
+   {
+      "pk" : 319,
+      "fields" : {
+         "group" : 4,
+         "locmap" : "HFFFF\nHHFFF\nH^HFF",
+         "name" : "Ranger (furn)"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Barb (furn)",
+         "group" : 4,
+         "locmap" : "HH^^H\nHHH^H\nHHH^H"
+      },
+      "pk" : 320
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "^^^^^\n^^hhh\nhhhhh",
+         "group" : 4,
+         "name" : "Martial arts trainer (dwarf)"
+      },
+      "pk" : 321
+   },
+   {
+      "fields" : {
+         "locmap" : "HHHFF\nHH?FF\nHH^HF",
+         "group" : 4,
+         "name" : "Lords of chaos"
+      },
+      "model" : "tag.tag",
+      "pk" : 322
+   },
+   {
+      "fields" : {
+         "locmap" : "^^^^^\n^^?^^\nLL^^^",
+         "group" : 4,
+         "name" : "Wanderer's guild"
+      },
+      "model" : "tag.tag",
+      "pk" : 323
+   },
+   {
+      "pk" : 324,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Mage fire",
+         "locmap" : "hhVLL\nLh%hL\nxxhLL",
+         "group" : 4
+      }
+   },
+   {
+      "fields" : {
+         "locmap" : "xxxxx\nxxxxx\nxxxxx",
+         "group" : 4,
+         "name" : "Badlands cavalier"
+      },
+      "model" : "tag.tag",
+      "pk" : 325
+   },
+   {
+      "pk" : 326,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "^RcR^\nRcccR\n^RcR^",
+         "name" : "Calythien"
+      }
+   },
+   {
+      "pk" : 327,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "HH~~~\n--?~~\nHHH~~",
+         "group" : 5,
+         "name" : "Windham"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Seashore Tower",
+         "locmap" : "SSSSS\nSS?SS\nh,hhh",
+         "group" : 5
+      },
+      "pk" : 328
+   },
+   {
+      "fields" : {
+         "group" : 5,
+         "locmap" : "hFhhF\nFh?hh\n,,,,,",
+         "name" : "Dunamor"
+      },
+      "model" : "tag.tag",
+      "pk" : 329
+   },
+   {
+      "pk" : 330,
+      "fields" : {
+         "name" : "West wharf",
+         "group" : 5,
+         "locmap" : "SSSSS\nhh?SS\n,,,hh"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Sunderland",
+         "locmap" : "~~~HH\n~~?HH\n~~v\\H",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 331
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "The Last Unicorn",
+         "group" : 5,
+         "locmap" : "FHFHF\nFF?FF\nFFFFF"
+      },
+      "pk" : 332
+   },
+   {
+      "pk" : 333,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Teywaer Graveyard",
+         "group" : 5,
+         "locmap" : "..F.F\n.F?FF\n...F."
+      }
+   },
+   {
+      "fields" : {
+         "locmap" : "h^^hh\n^^?Fh\n^FFFh",
+         "group" : 5,
+         "name" : "Teywaer Tunnel"
+      },
+      "model" : "tag.tag",
+      "pk" : 334
+   },
+   {
+      "fields" : {
+         "locmap" : "FFFFF\nFF?FF\nFFFFF",
+         "group" : 5,
+         "name" : "Teywaer village"
+      },
+      "model" : "tag.tag",
+      "pk" : 335
+   },
+   {
+      "fields" : {
+         "name" : "Teywaer well",
+         "locmap" : "..F..\n.Ff..\n.FF.F",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 336
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Celestial Caverns",
+         "locmap" : "^^^^^\n^^?^^\nvvv^^",
+         "group" : 5
+      },
+      "pk" : 337
+   },
+   {
+      "pk" : 338,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "S...S\nSF..S\nh..SS",
+         "group" : 5,
+         "name" : "Goblin citadel"
+      }
+   },
+   {
+      "fields" : {
+         "group" : 5,
+         "locmap" : "FFFFF\nFF?FF\nFFFFF",
+         "name" : "Well"
+      },
+      "model" : "tag.tag",
+      "pk" : 339
+   },
+   {
+      "fields" : {
+         "locmap" : "rRvvv\nrR?vv\nrRrvv",
+         "group" : 5,
+         "name" : "Twisted tower"
+      },
+      "model" : "tag.tag",
+      "pk" : 340
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "zh^^h\nh^?##\nzh##h",
+         "name" : "Cathedral"
+      },
+      "pk" : 341
+   },
+   {
+      "pk" : 342,
+      "fields" : {
+         "name" : "Ruins of El Deagnoh",
+         "group" : 5,
+         "locmap" : "#####\n##?#l\n####l"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Halls of the Dead",
+         "group" : 5,
+         "locmap" : "#^^^^\n#^?^^\n###^^"
+      },
+      "pk" : 343
+   },
+   {
+      "fields" : {
+         "name" : "Kobold mines",
+         "locmap" : "^^^^v\n^^?vv\n^^vvv",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 344
+   },
+   {
+      "pk" : 345,
+      "fields" : {
+         "group" : 5,
+         "locmap" : "vvvvH\nvv?vv\nvvvvv",
+         "name" : "Tiburico"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 346,
+      "fields" : {
+         "group" : 5,
+         "locmap" : "vvvvv\n^^?^^\n^^^^^",
+         "name" : "Castle of Toxic"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 347,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Seabird Inn",
+         "group" : 5,
+         "locmap" : "h|h.S\nh+?.S\nhh\\.S"
+      }
+   },
+   {
+      "pk" : 348,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "^^^HH\n^^?HH\n^^HHH",
+         "name" : "51 daughters"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "^^^^^\nHH?^H\nsHHHH",
+         "name" : "The valley of silence"
+      },
+      "pk" : 349
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "ff^^^\n--?^^\nHff^^",
+         "name" : "Tralpecktor"
+      },
+      "pk" : 350
+   },
+   {
+      "pk" : 351,
+      "fields" : {
+         "group" : 5,
+         "locmap" : "dddd^\ndd?dd\nddddd",
+         "name" : "The Ancient Temple of the Gods"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 352,
+      "fields" : {
+         "name" : "Stone garden",
+         "group" : 5,
+         "locmap" : "~##..\n##?#h\n~##f."
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 353,
+      "fields" : {
+         "name" : "The Warlock Conclave",
+         "group" : 5,
+         "locmap" : "^HHHH\n^^?HH\n^^^^^"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "ddddd\ndd?dd\nddddd",
+         "name" : "Tarackia"
+      },
+      "pk" : 354
+   },
+   {
+      "fields" : {
+         "name" : "Brimshire",
+         "locmap" : "fffff\nff?fv\nff,ff",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 355
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Soy",
+         "group" : 5,
+         "locmap" : "fffHv\nff?vv\nffvvv"
+      },
+      "pk" : 356
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "fffff\nff?ff\nsffff",
+         "group" : 5,
+         "name" : "Hairikko Forest"
+      },
+      "pk" : 357
+   },
+   {
+      "pk" : 358,
+      "fields" : {
+         "name" : "The Temple of Pandion Knights",
+         "locmap" : "vvvvv\nvv?vv\nvv|vv",
+         "group" : 5
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 359,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Villager under attack",
+         "group" : 5,
+         "locmap" : "Hvvvv\nvv?vH\nvvvvH"
+      }
+   },
+   {
+      "pk" : 360,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Ochimo",
+         "locmap" : "HH#HH\nH#?#H\nHH#HH",
+         "group" : 5
+      }
+   },
+   {
+      "pk" : 361,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Red Tides",
+         "group" : 5,
+         "locmap" : "hhhhh\nsh?hS\nsh~SS"
+      }
+   },
+   {
+      "pk" : 362,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Caves of Orac",
+         "group" : 5,
+         "locmap" : "H^^^^\nHH?^^\nHH^^^"
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "HH#H#\n##?#,\nv##HH",
+         "name" : "Ruins of a Temple of All Gods"
+      },
+      "pk" : 363
+   },
+   {
+      "pk" : 364,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "####H\nH#?#H\nH####",
+         "name" : "DESO-UNKNOWN "
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Goblin Farm",
+         "locmap" : "fsfss\nff?ss\nffHsf",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 365
+   },
+   {
+      "pk" : 366,
+      "fields" : {
+         "name" : "Mythical Valley",
+         "group" : 5,
+         "locmap" : "fvHHH\nfv?Hf\nvvvHf"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 367,
+      "fields" : {
+         "locmap" : "sssss\nsfsss\nffffs",
+         "group" : 5,
+         "name" : "Millie's Nightmare"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "fields" : {
+         "name" : "Buckthorn Valley",
+         "locmap" : "HyyFF\nHy?FF\nHH,Fl",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 368
+   },
+   {
+      "fields" : {
+         "name" : "The Lands of Apollo",
+         "locmap" : "fffff\nfffff\nfffff",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 369
+   },
+   {
+      "fields" : {
+         "group" : 5,
+         "locmap" : "^^^^~\n^^^^^\n^^svv",
+         "name" : "Magerathia"
+      },
+      "model" : "tag.tag",
+      "pk" : 370
+   },
+   {
+      "pk" : 371,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "HH^^^\n...^^\n...^^",
+         "name" : "Tinmen Monastery"
+      }
+   },
+   {
+      "pk" : 372,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Abandoned barn",
+         "locmap" : "vvvvv\nvvvvv\nvvvvv",
+         "group" : 5
+      }
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "...ff\n.hhhf\nhhhhh",
+         "name" : "Snotling farm"
+      },
+      "pk" : 373
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "^^^vv\n^^vvv\n^^vrr",
+         "name" : "Zorn"
+      },
+      "pk" : 374
+   },
+   {
+      "pk" : 375,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "hhhhh\nhhhhh\nhhhhh",
+         "group" : 5,
+         "name" : "Feldspar conglomerate"
+      }
+   },
+   {
+      "pk" : 376,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Meadowshire",
+         "locmap" : "vHHHH\nvvHHH\nvvvHH",
+         "group" : 5
+      }
+   },
+   {
+      "pk" : 377,
+      "fields" : {
+         "group" : 5,
+         "locmap" : ".....\n..,F.\nS,,.,",
+         "name" : "Broken Forest - Castle"
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 378,
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "S..,F\nSS,,.\n==,,,",
+         "group" : 5,
+         "name" : "Broken Forest - Barracks"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "Broken Forest - Seacrest",
+         "locmap" : ",.,.S\n,,,SS\nSSSSS",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 379
+   },
+   {
+      "fields" : {
+         "locmap" : "...SS\nF.,SS\n.,.SS",
+         "group" : 5,
+         "name" : "Broken Forest - Prison"
+      },
+      "model" : "tag.tag",
+      "pk" : 380
+   },
+   {
+      "fields" : {
+         "group" : 5,
+         "locmap" : "HHHHH\nHHHHH\nHHHHH",
+         "name" : "Ranger (deso)"
+      },
+      "model" : "tag.tag",
+      "pk" : 381
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Barb (deso)",
+         "locmap" : "HHH^^\n^^HH^\n^^^H^",
+         "group" : 5
+      },
+      "pk" : 382
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "sslls\nsssls\nsssss",
+         "name" : "Priest (deso)"
+      },
+      "pk" : 383
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "HH#HH\nz###H\nHH#HH",
+         "group" : 5,
+         "name" : "Midnight cavalier"
+      },
+      "pk" : 384
+   },
+   {
+      "fields" : {
+         "name" : "Mage acid",
+         "locmap" : "hssss\nhs%ss\nhssss",
+         "group" : 5
+      },
+      "model" : "tag.tag",
+      "pk" : 385
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "locmap" : "vv,^^\n^^?^^\n^^^^^",
+         "group" : 5,
+         "name" : "Templar guild"
+      },
+      "pk" : 386
+   },
+   {
+      "pk" : 387,
+      "fields" : {
+         "name" : "Tarmalen spring guild",
+         "locmap" : "sssss\nss?sH\nsssss",
+         "group" : 5
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Conjurer guild",
+         "group" : 5,
+         "locmap" : "^^hhh\n^^?hh\n^^^hh"
+      },
+      "pk" : 388
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Reaver guild",
+         "locmap" : "^dddH\ndd?#d\ndd##d",
+         "group" : 5
+      },
+      "pk" : 389
+   },
+   {
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "HHH##\nHHH##\nHH###",
+         "name" : "Tiger shrine (deso)"
+      },
+      "pk" : 390
+   },
+   {
+      "pk" : 391,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "Aelena temple",
+         "locmap" : "^^^^d\nd^ddd\nddddd",
+         "group" : 5
+      }
+   },
+   {
+      "pk" : 392,
+      "model" : "tag.tag",
+      "fields" : {
+         "group" : 5,
+         "locmap" : "/FFFF\nFFFFF\nFFFFF",
+         "name" : "Ghost liberator mansion"
+      }
+   },
+   {
+      "pk" : 393,
+      "fields" : {
+         "name" : "Animist guild",
+         "locmap" : "fffff\nfffff\nfffff",
+         "group" : 5
+      },
+      "model" : "tag.tag"
+   },
+   {
+      "pk" : 394,
+      "model" : "tag.tag",
+      "fields" : {
+         "name" : "The Navigators of the Tree",
+         "group" : 5,
+         "locmap" : "fffff\nfffff\nfffff"
+      }
+   }
+]

@@ -9,6 +9,7 @@ class TagGroup(models.Model):
 class Tag(models.Model):
     name = models.TextField()
     group = models.ForeignKey(TagGroup)
+    locmap = models.TextField()
 
 
 class Note(models.Model):
